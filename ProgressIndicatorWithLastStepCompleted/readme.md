@@ -6,4 +6,4 @@ It requires a pseudo-stage as the last stage that will not be displayed in the c
 
 Example:
 
-![Example](/example.png)
+![Example](/ProgressIndicatorWithLastStepCompleted/example.png)
