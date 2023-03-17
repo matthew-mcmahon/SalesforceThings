@@ -1,7 +1,7 @@
 .THIS .slds-path__item {
     --lwc-colorBackgroundPathComplete: #008000;
-	--lwc-colorBackgroundPathCompleteHover:#29AB87;
-	--lwc-colorBackgroundPathActive:#00512D;
+    --lwc-colorBackgroundPathCompleteHover:#29AB87;
+    --lwc-colorBackgroundPathActive:#00512D;
     --lwc-colorBorderPathCurrent:black;
 }
 
