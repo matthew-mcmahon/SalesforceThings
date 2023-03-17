@@ -1,0 +1,18 @@
+<aura:component implements="lightning:availableForFlowScreens">
+    
+    <aura:attribute name="stages" type="String[]"/>
+    <aura:attribute name="currentStage" type="String"/>
+    <aura:handler name="change" value="{!v.currentStage}" action="{!c.onStageSelect}"/>
+    
+    <aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    
+    <div class="slds-border_bottom">
+        <lightning:progressIndicator aura:id="progressIndicator" 
+                                     currentStep="{!v.currentStage}"
+                                     type="path">
+        </lightning:progressIndicator>
+        <br/> 
+    </div>
+    <br/>
+    
+</aura:component>

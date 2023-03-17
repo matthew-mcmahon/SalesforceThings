@@ -1,0 +1,22 @@
+.THIS .slds-path__item {
+    --lwc-colorBackgroundPathComplete: #008000;
+	--lwc-colorBackgroundPathCompleteHover:#29AB87;
+	--lwc-colorBackgroundPathActive:#00512D;
+    --lwc-colorBorderPathCurrent:black;
+    --pointer-events:none;
+}
+
+.THIS .laststep {
+    padding-left: var(--lwc-spacingXxSmall,0.25rem);
+    margin-right: 0;
+    border-top-right-radius: var(--lwc-heightSalesPath,2rem);
+    border-bottom-right-radius: var(--lwc-heightSalesPath,2rem);
+    padding-right: .625rem;
+}
+
+.THIS .laststep:before {
+    right: .625rem;
+}
+.THIS .laststep:after {
+    right: .625rem;
+}
