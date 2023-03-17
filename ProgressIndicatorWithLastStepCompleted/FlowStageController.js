@@ -8,7 +8,7 @@
                     "aura:id": step,
                     "label": step,
                     "value": step,
-                    "class": (step == "Stage Closed") ? "slds-hide" : (index + 1 == component.get('v.stages').length - 1) ? "slds-show laststep" : "slds-show"
+                    "class": (index == component.get('v.stages').length - 1) ? "slds-hide" : (index + 1 == component.get('v.stages').length - 1) ? "slds-show laststep" : "slds-show"
                 },
                 function (newProgressStep, status, errorMessage) {
                     if (status === "SUCCESS") {
