@@ -2,7 +2,7 @@
 
 This is a progress indicator example on a Salesforce aura component that makes the last stage in current stages invisible, and alters the second to last stage to appear as the last stage - allowing it to look like the whole progressindicator is completed.
 
-It requires a pseudo-stage as the last stage that will not be displayed in the component.
+It requires a pseudo-stage as the last stage that will not be displayed in the component, that when the stage is set to that pseudo-stage it indicates that every stage is completed.
 
 Example:
 
