@@ -6,4 +6,4 @@ It requires a pseudo-stage as the last stage that will not be displayed in the c
 
 Example:
 
-![Example](/assets/images/tux.png)
+![Example](/example.png)
