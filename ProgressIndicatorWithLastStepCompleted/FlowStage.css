@@ -3,7 +3,6 @@
 	--lwc-colorBackgroundPathCompleteHover:#29AB87;
 	--lwc-colorBackgroundPathActive:#00512D;
     --lwc-colorBorderPathCurrent:black;
-    --pointer-events:none;
 }
 
 .THIS .laststep {
